@@ -47,7 +47,7 @@ defmodule Mongo do
   use Mongo.Messages
   alias Mongo.Query
 
-  @timeout 5000
+  @timeout 15000
 
   @type conn :: DBConnection.conn
   @type collection :: String.t
